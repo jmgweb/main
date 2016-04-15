@@ -741,7 +741,7 @@ function ajaxRead()
 
 	var server = get('text8','value');
 
-	var request = $.ajax( { url: "http://" + server + "/php/select.php" } );
+	var request = $.ajax( { url: "http://" + server + "/php/select.php" ,  crossDomain: true } );
 
 	// Then we define the required callback functions for the events 'done' and 'fail'.
 	// One of this will be automatically executed, when our request be succesfully finished
