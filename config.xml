@@ -25,4 +25,7 @@
        <preference name="android-minSdkVersion" value="11" />
    </platform>
 
+ <platform name="windows">
+ </platform>
+
 </widget>
