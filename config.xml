@@ -25,4 +25,9 @@
        <preference name="android-minSdkVersion" value="11" />
    </platform>
 
+     <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
 </widget>
