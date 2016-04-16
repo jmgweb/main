@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jmg by jmgweb</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jmg</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/jmgweb/jmg">View the Project on GitHub <small>jmgweb/jmg</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/jmgweb/jmg/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jmgweb/jmg/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jmgweb/jmg">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="jmg-javascript-mini-gui-" class="anchor" href="#jmg-javascript-mini-gui-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JMG (Javascript Mini GUI) </h2>
+
+<p>JMG is a JavaScript library. </p>
+
+<p>The main goal of the project is to allow developers, the creation of responsive web applications using the same code 
+for desktop and mobile devices.</p>
+
+<p>Another goal is to simplify things, using only Javascript for coding, without the need of deal with HTML and CSS too. 
+JMG apps can be contained in only one (Javascript) '.js' file.</p>
+
+<p>Responsiveness (the capability to adapt to any screen sizes and orientations) are achieved using two approaches:</p>
+
+<ul>
+<li><p>The application can display itself using full page width on small screens and to display as dialogs on large ones.</p></li>
+<li><p>The user can arrange widgets in grids filled with blocks containing the widgets. When there is enough space,
+the blocks are shown side by side. Otherwise they are shown stacked. You can test this, simply using the zoom
+of your desktop browser or using the device mode emulation of the Javascript console on desktop version of 
+Google Chrome.</p></li>
+</ul>
+
+<p>Files description:</p>
+
+<pre><code>index.html          Main HTML page (app loader)
+
+app/main.js         Main JMG demo (the only one so far)
+
+lib/jmg.js          The JMG library
+
+lib/jquery.mobile-1.4.5.min.js  jQuery Mobile library (the heart of JMG)
+
+lib/jquery-1.12.1.min.js    jQuery library (the heart of jQuery Mobile)
+
+css/jquery.mobile-1.4.5.min.css jQuery Mobile CSS
+
+php/select.php          server procedure (get a recordset from a table)
+
+php/insert.php          server procedure (add rows)
+
+php/delete.php          server procedure (delete rows)
+
+php/update.php          server procedure (update edited rows)
+
+data/people.sql         import this file on 'test' database for AJAX demo
+</code></pre>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started:</h2>
+
+<p>Simply double click 'index.html' file. Main demo will be open in your default browser.</p>
+
+<p>For testing AJAX demo, you must install an AMP server (I'm using XAMPP) copy all JMG files to web root folder 
+(htdocs in the case of XAMPP) and import data/people.sql in the database 'test'. Finally, your app, will be 
+ready for testing (including AJAX) at 127.0.0.1.</p>
+
+<p>Of course, you can put your app online in any standard web hosting or use any of the available tools for creating an
+Android, IOS, Linux or Windows application with it.</p>
+
+<p>You could use (ie) Apache Cordova for that:</p>
+
+<p><a href="http://cordova.apache.org/#supported_platforms_section">http://cordova.apache.org/#supported_platforms_section</a></p>
+
+<p>Making, this way JMG multi-platform.</p>
+
+<p>You could use PhoneGap too (it even allows you to build your app with a cloud service): </p>
+
+<p><a href="https://build.phonegap.com/">https://build.phonegap.com/</a></p>
+
+<h2>
+<a id="compatibility" class="anchor" href="#compatibility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compatibility:</h2>
+
+<p>jQuery Mobile, the wonderful library behind JMG is compatible with a lot of mobile and desktop web browsers, 
+making your app, able to run almost anywhere.</p>
+
+<p>Roberto Lopez (<a href="http://www.hmgforum.com">www.hmgforum.com</a> - <a href="mailto:mail.box.hmg@gmail.com">mail.box.hmg@gmail.com</a>)</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jmgweb">jmgweb</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
