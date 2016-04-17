@@ -2,6 +2,7 @@
 JMG TODO List
 -------------
 
+
 - alpha 005:
 
    - correct handling of optional properties.
@@ -31,5 +32,12 @@ JMG TODO List
 
 - alpha 010:
 
+   - support for widget's label position.
+
+
+- alpha 011:
+
    - support for application exit via cordova/phonegap.
+
+
 
