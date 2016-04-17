@@ -10,10 +10,10 @@
     <name>JMG Main Demo</name>
 
     <description>
-        An example for JMG on Android. 
+        An example for JMG on Android
     </description>
 
-    <author href="http://www.hmgforum.com" email="">
+    <author href="https://sourceforge.net/projects/jmg/" email="">
 	
     </author>
 
@@ -24,8 +24,5 @@
        <preference name="AndroidLaunchMode" value="singleTop"/>
        <preference name="android-minSdkVersion" value="11" />
    </platform>
-
- <platform name="windows">
- </platform>
 
 </widget>

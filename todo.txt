@@ -1,0 +1,6 @@
+
+For next alpha (005):
+
+- full handling of optional properties
+
+- new styles for table widget

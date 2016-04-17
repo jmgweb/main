@@ -15,19 +15,7 @@
 		<!-- Include the jQuery library -->
 		<script src="lib/jquery-1.12.1.min.js"></script>
 
-		<!-- Fix for Chrome problem with JQM on localhost -->
-		<!--
 		<script>
-			$(document).bind('mobileinit',function(){
-        		$.mobile.changePage.defaults.changeHash = false;
-		        $.mobile.hashListeningEnabled = false;
-        		$.mobile.pushStateEnabled = false;
-			});
-		</script> 
-		-->
-
-		<script>
-
                 $( document ).bind( "mobileinit", function() {
 
                    $.mobile.allowCrossDomainPages = true;
@@ -35,7 +23,6 @@
                    $.mobile.pushStateEnabled      = false;
 
                 });
-
 		</script> 
 
 		<!-- Include the jQuery Mobile library -->

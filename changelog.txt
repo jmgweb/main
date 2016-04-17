@@ -1,0 +1,25 @@
+
+- 2016.03.28 (alpha 001):
+
+  Initial release.
+
+- 2016.03.28 (alpha 002):
+
+  added: people.sql table.
+
+- 2016.04.02 (alpha 003):
+
+  added: grid.
+
+  added: button icons.
+
+- 2016.04.16 (alpha 004):
+
+  added: select.
+
+  added: config.xml file for Phonegap
+
+  modified: beginGrid does not requires number of columns as parameter. 
+
+  added: placeholder property for text and number widgets.
+
