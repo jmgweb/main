@@ -1,6 +1,5 @@
 /*
         JMG Main Demo - Roberto Lopez
-
 */
 
 function main()
@@ -170,6 +169,12 @@ function main()
 			default	:'Hello!'
 		});
 
+		text({
+			id	    :'txt2', 
+			label	    :'Input Text:',
+			placeholder :'Write some text here!!!'
+		});
+
 		button({
 			id	:'btn1' , 
 			caption	:"Get Text Value" , 
@@ -318,6 +323,13 @@ function main()
 			label	:'Input Number:',
 			default	: 10
 		});
+
+		number({
+			id	   :'num2', 
+			label	   :'Input Number:',
+			placeholder:'Write a number!!!'
+		});
+
 
 		button({
 			id	:'btn41' , 
