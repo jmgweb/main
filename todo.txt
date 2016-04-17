@@ -7,37 +7,48 @@ JMG TODO List
 
    - correct handling of optional properties.
 
-   - 'style' property support for 'table' widget (JQM styles).
-
 
 - alpha 006:
 
-   - 'inputmask' property support.
+   - 'style' property support for 'table' widget (JQM styles).
 
 
 - alpha 007:
 
-   - 'enabled' property support.
+   - 'inputmask' property support.
 
 
 - alpha 008:
 
-   - support 'rangemin and 'rangemax' properties in 'number' widget.
+   - 'enabled' property support.
 
 
 - alpha 009:
 
-   - support for enhancements in 'select' widget (placeholder, sections, etc.).
+   - support 'rangemin and 'rangemax' properties in 'number' widget.
 
 
 - alpha 010:
 
-   - support for widget's label position.
+   - support for enhancements in 'select' widget (placeholder, sections, etc.).
 
 
 - alpha 011:
 
-   - support for application exit via cordova/phonegap.
+   - support for widget's label position.
 
 
+- alpha 012:
+
+   - support for 'listview' widget.
+
+
+- alpha 013:
+
+   - support for fixed footers and headers with navigation buttons in 'mobile' mode.
+
+
+- alpha 014:
+
+   - support for application exit via phonegap.
 
