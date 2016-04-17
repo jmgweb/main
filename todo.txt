@@ -1,19 +1,22 @@
 
+JMG TODO List
+-------------
+
 - alpha 005:
 
-   - correct handling of optional properties
+   - correct handling of optional properties.
 
-   - 'style' property support for table widget
+   - 'style' property support for 'table' widget (JQM styles).
 
 
 - alpha 006:
 
-   - 'inputmask' property support
+   - 'inputmask' property support.
 
 
 - alpha 007:
 
-   - 'enabled' property support
+   - 'enabled' property support.
 
 
 - alpha 008:
