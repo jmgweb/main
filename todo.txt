@@ -1,6 +1,32 @@
 
-For next alpha (005):
+- alpha 005:
 
-- full handling of optional properties
+   - correct handling of optional properties
 
-- new styles for table widget
+   - 'style' property support for table widget
+
+
+- alpha 006:
+
+   - 'inputmask' property support
+
+
+- alpha 007:
+
+   - 'enabled' property support
+
+
+- alpha 008:
+
+   - support 'rangemin and 'rangemax' properties in 'number' widget.
+
+
+- alpha 009:
+
+   - support for enhancements in 'select' widget (placeholder, sections, etc.).
+
+
+- alpha 010:
+
+   - support for application exit via cordova/phonegap.
+
