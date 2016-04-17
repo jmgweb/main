@@ -75,7 +75,7 @@ jQuery Mobile, the wonderful library behind JMG is compatible with a lot of mobi
 making your app, able to run almost anywhere.
 
 
-Roberto Lopez (http://jmgweb.github.io/main)
+Roberto Lopez <mail.box.hmg@gmail.com>
 
 
 
