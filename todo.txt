@@ -53,3 +53,9 @@ JMG TODO List
 
    - support for application exit via phonegap.
 
+
+- alpha 015:
+
+   - basic documentation.
+   
+   
