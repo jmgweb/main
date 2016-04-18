@@ -6,6 +6,7 @@ JMG TODO List
 - alpha 005:
 
    - correct handling of optional properties.
+   - check for duplicated id on widget creation.
 
 
 - alpha 006:
