@@ -31,7 +31,7 @@ JMG TODO List
 
 - alpha 010:
 
-   - support for enhancements in 'select' widget (placeholder, sections, etc.).
+   - support for enhancements in 'select' widget (placeholder, sections, addItem, deleteItem, deleteAllItems, etc.).
 
 
 - alpha 011:
