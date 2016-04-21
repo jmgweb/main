@@ -25,7 +25,7 @@ function main()
 	
 	*/
 
-	setPageStyle('mobile');
+	setPageStyle('auto');
 
 	//////////////////////////////////////////////////////////
 	// Main Menu
@@ -39,6 +39,7 @@ function main()
 
 		/*
 		Header is optional. It is shown on dialogs and pages
+		'id' and 'caption' properties are mandatory.
 		*/ 
 
 		header({
@@ -139,6 +140,7 @@ function main()
 
 		/*
 		Footer is optional. It is shown on dialogs and pages
+		'id' and 'caption' properties are mandatory.
 		*/ 
 
 		footer({
@@ -160,7 +162,8 @@ function main()
 		});
 
 		/*
-		'text' function defines a textbox. 'id' and 'label' properties are required. 'default' is optional.
+		'text' function defines a textbox. only 'id' property is required. 
+		'default', 'label' and 'placeholder' are optional.
 		*/
 
 		text({
@@ -174,6 +177,7 @@ function main()
 			label	    :'Input Text:',
 			placeholder :'Write some text here!!!'
 		});
+
 
 		button({
 			id	:'btn1' , 
@@ -189,6 +193,10 @@ function main()
 
 
 		/*
+
+		button widhet:
+
+		'id', 'caption' and 'action' properties are mandatory. 
 
 		'iconType' property valid values are:
 
@@ -226,7 +234,9 @@ function main()
 
 		/*
 		'flipswitch' works like a checkbox, but it is more flexible. Properties are self-explanatory (I hope :).
+		'label' and 'default' are optional.
 		*/
+
 
 		flipswitch({
 			id	:'flip1' , 
@@ -316,6 +326,7 @@ function main()
 
 		/*
 		'number' is equivalent to a spinner and is (obviously) used for numeric inputs :)
+		only 'id' is mandatory. 'label', 'id', and 'placeholder' are optional.
 		*/
 
 		number({
@@ -329,7 +340,6 @@ function main()
 			label	   :'Input Number:',
 			placeholder:'Write a number!!!'
 		});
-
 
 		button({
 			id	:'btn41' , 
@@ -367,6 +377,8 @@ function main()
 		/*
 		'date' is used for dates input and is equivalent to a datePicker. The dates are handled 
 		 in the yyyy-mm-dd format (as strings).
+		only 'id' property is mandatory. 'label' and 'default' are optional.
+
 		*/
 
 		date({
@@ -410,6 +422,7 @@ function main()
 
 		/*
 		'textArea' is used for large text inputs and is equivalent to a textBox.
+		only 'id' property is mandatory. 'label' and 'default' properties are optional.
 		*/
 
 		textArea({
@@ -639,7 +652,8 @@ function main()
 		});
 
 		/*
-		'radio()' defines a group of radio buttons and only two properties are mandatory ('id' and 'options').
+		'radio()' defines a group of radio buttons and only two properties are mandatory 
+		('id' and 'options').
 		*/
 
 		radio({
@@ -684,7 +698,9 @@ function main()
 		});
 
 		/*
-		'select()' defines a select menu (worls like a combobox). 'id' and 'options' propeties are mandatory.
+		'select()' defines a select menu (worls like a combobox). 
+		'id' and 'options' propeties are mandatory.
+		'label' and 'default' are optional.
 		*/
 
 		select({
