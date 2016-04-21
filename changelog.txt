@@ -3,15 +3,18 @@
 
   Initial release.
 
+
 - 2016.03.28 (alpha 002):
 
   added: people.sql table.
+
 
 - 2016.04.02 (alpha 003):
 
   added: grid.
 
   added: button icons.
+
 
 - 2016.04.16 (alpha 004):
 
@@ -22,4 +25,11 @@
   modified: beginGrid does not requires number of columns as parameter. 
 
   added: placeholder property for text and number widgets.
+
+
+- 2016.04.21 (alpha 005):
+
+   fixed: correct handling of optional properties.
+
+   modified: check for duplicated id on widget creation.
 

@@ -3,12 +3,6 @@ JMG ROADMAP
 -----------
 
 
-- alpha 005:
-
-   - correct handling of optional properties.
-   - check for duplicated id on widget creation.
-
-
 - alpha 006:
 
    - 'style' property support for 'table' widget (JQM styles).
