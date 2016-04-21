@@ -1,6 +1,12 @@
 
-JMG (Javascript Mini GUI) 
--------------------------
+----------------------------------------------------
+JMG (Javascript Mini GUI)
+----------------------------------------------------
+author: Roberto Lopez 
+web   : http://jmgweb.github.io/main
+mail  : mail.box.hmg@gmail.com
+forum : https://groups.google.com/d/forum/jmg-forum
+----------------------------------------------------
 
 JMG is a JavaScript library. 
 
