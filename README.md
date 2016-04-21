@@ -6,6 +6,7 @@ author: Roberto Lopez
 web   : http://jmgweb.github.io/main
 mail  : mail.box.hmg@gmail.com
 
+----------------------------------------------------
 
 JMG is a JavaScript library. 
 
