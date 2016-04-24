@@ -1,4 +1,8 @@
 
+JMG Changelog
+~~~~~~~~~~~~~
+
+
 - 2016.03.28 (alpha 001):
 
   Initial release.
@@ -32,4 +36,18 @@
    fixed: correct handling of optional properties.
 
    modified: check for duplicated id on widget creation.
+
+
+- 2016.04.23 (alpha 006):
+
+   added: 'style' property to table widget.
+
+         It can have any of the following values: 
+
+         - 'standard' (is the default if style is not specified)
+         - 'columntoggle' (a menu allows to select desired columns)
+         - 'reflow'  (each row element is shown stacked)
+
+   added: 'height' property. You can use with it any css unit. The default value is: 16em
+
 

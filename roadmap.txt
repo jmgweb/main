@@ -3,11 +3,6 @@ JMG ROADMAP
 -----------
 
 
-- alpha 006:
-
-   - 'style' property support for 'table' widget (JQM styles).
-
-
 - alpha 007:
 
    - 'inputmask' property support.

@@ -1,6 +1,6 @@
 JMG (Javascript Mini GUI)
 
-Roberto Lopez <mail.box.hmg@gmail.com>
+(c) Roberto Lopez <jmg.contact.box *at* gmail.com>
 
 The MIT License (MIT)
 

@@ -5,7 +5,7 @@ JMG (Javascript Mini GUI)
 author: Roberto Lopez 
 
 web   : http://jmgweb.github.io/main
-mail  : mail.box.hmg@gmail.com
+mail  : jmg.contact.box *at* gmail.com
 
 ----------------------------------------------------
 
@@ -51,6 +51,8 @@ Files description:
 
 	data/people.sql			import this file on 'test' database for AJAX demo
 
+	config.xml			phonegap configuration file
+
 
 Getting Started:
 ----------------
@@ -82,7 +84,7 @@ jQuery Mobile, the wonderful library behind JMG is compatible with a lot of mobi
 making your app, able to run almost anywhere.
 
 
-Roberto Lopez <mail.box.hmg@gmail.com>
+Roberto Lopez <jmg.contact.box *at* gmail.com>
 
 
 
