@@ -1,5 +1,5 @@
 /*
-        JMG Main Demo - Roberto Lopez
+        JMG Main Demo - Roberto Lopez <jmg.contact.box *at* gmail.com>
 */
 
 function main()
@@ -470,6 +470,16 @@ function main()
 
 		- The 'load' method, can fill the table from an array or a JSON string (the type are detected and
 		  handled automatically).
+
+		- 'style' property is optional and can have any of the following values: 
+
+			- 'standard'
+			- 'columntoggle' (a menu allows to select desired columns)
+			- 'reflow'  (each row element is shown stacked)
+
+		  'standard' is the default if style is not specified.
+
+		- 'height' property is optional. You can use with it any css unit. The default value is: 16em
 
 		*/
 
